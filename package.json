@@ -1,0 +1,12 @@
+{
+  "name": "mamaswetterchecker",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "check-weather": "node scripts/check-weather.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
