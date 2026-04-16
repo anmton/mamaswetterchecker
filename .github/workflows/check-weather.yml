@@ -24,7 +24,7 @@ jobs:
           OPENWEATHER_LAT: ${{ secrets.OPENWEATHER_LAT }}
           OPENWEATHER_LON: ${{ secrets.OPENWEATHER_LON }}
           NTFY_URL: ${{ secrets.NTFY_URL }}
-          TEMP_THRESHOLD_C: 3
+          TEMP_THRESHOLD_C: 30
           OPENWEATHER_UNITS: metric
           OPENWEATHER_LANG: de
         run: node scripts/check-weather.mjs
